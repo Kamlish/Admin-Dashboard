@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div className= {darkMode ? "app dark" : "app"}>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/">
             <Route  path="login" element={<Login/>}/>
