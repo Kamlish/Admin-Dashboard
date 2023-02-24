@@ -1,6 +1,9 @@
-# Username: admin@kamlish.com
-# Password: admin123
+# Username 
+    admin@kamlish.com
+# Password 
+    admin123
 
+#
 Developed an admin dashboard that allows the admin to perform CRUD operations on users & transactions.
 #
 Implemented an authentication system using Firebase.
